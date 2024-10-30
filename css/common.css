@@ -1,0 +1,55 @@
+body {
+  background: #fff;
+}
+
+p {
+  font-size: 15px;
+}
+
+.wp_minchu_sp {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_sp {
+    display: inherit;
+  }
+}
+.wp_minchu_f-red {
+  color: #e85151;
+}
+.wp_minchu_bg-red {
+  background: #e85151;
+  color: white;
+}
+.wp_minchu_bg-pnk {
+  background: #ee73a2;
+  color: white;
+}
+.wp_minchu_bg-org {
+  background: #ffc000;
+  color: white;
+}
+.wp_minchu_bg-grn {
+  background: #8ee66f;
+  color: white;
+}
+.wp_minchu_bg-lbl {
+  background: #6ddad3;
+  color: white;
+}
+.wp_minchu_bd-org {
+  border: solid 1px #fb9006;
+  color: #fb9006;
+}
+.wp_minchu_bd-bl {
+  border: solid 1px #5454de;
+  color: #5454de;
+}
+.wp_minchu_bd-grn {
+  border: solid 1px green;
+  color: green;
+}
+.wp_minchu_bd-red {
+  border: solid 1px #de2525;
+  color: #de2525;
+}

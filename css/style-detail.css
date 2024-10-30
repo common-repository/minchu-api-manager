@@ -1,0 +1,635 @@
+body {
+  opacity: 0;
+}
+
+.wp_minchu_wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_wrapper {
+    width: 100%;
+  }
+}
+.wp_minchu_car .wp_minchu_car_name {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_car_name {
+    padding: 0 10px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_grd {
+    font-size: 18px;
+  }
+}
+.wp_minchu_car .wp_minchu_section01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_section01 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.wp_minchu_car .wp_minchu_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_right {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+.wp_minchu_car .wp_minchu_left {
+  width: 600px;
+  min-width: 600px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_left {
+    width: 100%;
+    min-width: 100%;
+    margin-right: 0;
+  }
+}
+.wp_minchu_car .wp_minchu_car_img {
+  width: 600px;
+  height: 450px;
+  background: #000;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_car_img {
+    width: 100%;
+    height: calc(100vw * 3 /4);
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.wp_minchu_car .wp_minchu_car_img_main {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.wp_minchu_car .wp_minchu_arrow_right {
+  position: absolute;
+  top: calc(50% - 20px);
+  right: 10px;
+  width: 40px;
+}
+.wp_minchu_car .wp_minchu_arrow_right:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_arrow_right {
+    top: calc(50% - 10px);
+    right: 5px;
+    width: 20px;
+  }
+}
+.wp_minchu_car .wp_minchu_arrow_left {
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 10px;
+  width: 40px;
+}
+.wp_minchu_car .wp_minchu_arrow_left:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_arrow_left {
+    top: calc(50% - 10px);
+    left: 5px;
+    width: 20px;
+  }
+}
+.wp_minchu_car .wp_minchu_wall_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+.wp_minchu_car .wp_minchu_wall_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+.wp_minchu_car .wp_minchu_img_cmt {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 6px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.wp_minchu_car .wp_minchu_thumbs img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_thumbs {
+    max-width: 100%;
+    margin: 0 10px;
+    overflow: hidden;
+    min-height: calc(3 * ((100vw / 5) - 4px) / 4);
+    margin-bottom: 20px;
+    position: relative;
+  }
+}
+.wp_minchu_car .wp_minchu_thumbs_inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_thumbs_inner {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 100%;
+    overflow-x: scroll;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.wp_minchu_car .wp_minchu_thumb_img {
+  width: calc((100% / 10) - 4px);
+  cursor: pointer;
+  margin-top: 4px;
+}
+.wp_minchu_car .wp_minchu_thumb_img:not(:last-of-type) {
+  margin-right: 4px;
+}
+.wp_minchu_car .wp_minchu_thumb_img[data-target="true"] {
+  position: relative;
+}
+.wp_minchu_car .wp_minchu_thumb_img[data-target="true"]:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 119, 188, 0.5);
+  border: solid 3px #ff77bc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_thumb_img {
+    min-width: calc((100% / 5) - 4px);
+    min-height: 100%;
+    margin-top: 0;
+  }
+}
+.wp_minchu_car table {
+  width: 100%;
+}
+.wp_minchu_car .wp_minchu_table01 {
+  width: 100%;
+  margin-bottom: 20px;
+  table-layout: fixed;
+  border: none;
+}
+.wp_minchu_car .wp_minchu_table01 th,
+.wp_minchu_car .wp_minchu_table01 td {
+  text-align: left;
+  font-weight: 700;
+  padding: 4px 0 4px 4px;
+  border: none;
+}
+.wp_minchu_car .wp_minchu_table01 th {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  color: inherit;
+  position: relative;
+}
+.wp_minchu_car .wp_minchu_table01 th.red {
+  color: #e85151;
+}
+.wp_minchu_car .wp_minchu_table01 th.red:after {
+  background-color: #e85151;
+}
+.wp_minchu_car .wp_minchu_table01 th:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 10px);
+  height: 1px;
+  background: #222;
+}
+.wp_minchu_car .wp_minchu_table01 td {
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_table01 td {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wp_minchu_car .wp_minchu_table01 td {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+.wp_minchu_car .wp_minchu_table01 td .wp_minchu_odan {
+  font-size: 34px;
+}
+.wp_minchu_car .wp_minchu_table02 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.wp_minchu_car .wp_minchu_table02 .wp_minchu_cell {
+  width: calc((100% - 20px) / 3);
+}
+.wp_minchu_car .wp_minchu_table02 .wp_minchu_cell:not(:nth-of-type(3n)) {
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_table02 .wp_minchu_cell:not(:nth-of-type(3n)) {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_table02 .wp_minchu_cell:not(:nth-of-type(2n)) {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_table02 .wp_minchu_cell {
+    width: calc((100% - 10px) / 2);
+  }
+}
+.wp_minchu_car .wp_minchu_table02 .wp_minchu_cell .wp_minchu_th {
+  font-size: 12px;
+  font-weight: 500;
+  color: inherit;
+  padding: 4px 0 4px 4px;
+  position: relative;
+  background: white;
+  border-bottom: solid 1px #222;
+  margin: 0;
+}
+.wp_minchu_car .wp_minchu_table02 .wp_minchu_cell .wp_minchu_td {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 4px 10px 4px;
+  margin: 0;
+  vertical-align: top;
+}
+.wp_minchu_car .wp_minchu_sm {
+  font-size: 16px;
+  margin-left: 5px;
+}
+.wp_minchu_car .wp_minchu_table_head {
+  font-size: 12px;
+  font-weight: 500;
+  color: #666;
+  background: #f9f8f6;
+  padding: 4px 0 4px 4px;
+}
+.wp_minchu_car .wp_minchu_table03 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 0;
+  padding-left: 0;
+}
+.wp_minchu_car .wp_minchu_table03 li {
+  width: calc(25% - 4px);
+  font-size: 12px;
+  padding: 8px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 2px;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_table03 li {
+    width: calc(50% - 4px);
+  }
+}
+.wp_minchu_car .wp_minchu_table03 li[data-opt="false"] {
+  color: #ccc;
+}
+.wp_minchu_car .wp_minchu_table03 li[data-opt="true"] {
+  font-weight: 700;
+  font-size: 12px;
+  background: rgba(255, 119, 188, 0.2);
+}
+.wp_minchu_car .wp_minchu_section_vr {
+  margin-top: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_section_vr {
+    margin: 10px 10px 0;
+  }
+}
+.wp_minchu_car .wp_minchu_section_vr .wp_minchu_vr_img {
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_section_vr .wp_minchu_vr_img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.wp_minchu_car .wp_minchu_section_vr .wp_minchu_vr_img img {
+  width: 100%;
+}
+.wp_minchu_car .wp_minchu_section_vr .wp_minchu_vr_img .wp_minchu_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.wp_minchu_car .wp_minchu_section_vr .wp_minchu_vr_img .wp_minchu_btn_expand {
+  cursor: pointer;
+  position: absolute;
+  bottom: calc(50% - 30px);
+  right: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white url(../img/icon_expand.png) center center/30px auto no-repeat;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.wp_minchu_car .wp_minchu_section_vr .wp_minchu_vr_img:hover .wp_minchu_btn_expand {
+  background-color: #6ddad3;
+}
+.wp_minchu_car .wp_minchu_section_vr .wp_minchu_comment {
+  padding-left: 10px;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_section_vr .wp_minchu_comment {
+    padding-left: 0;
+  }
+}
+.wp_minchu_car .wp_minchu_section_vr_inner {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_section_vr_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.wp_minchu_car .wp_minchu_section02,
+.wp_minchu_car .wp_minchu_section03 {
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_section02,
+  .wp_minchu_car .wp_minchu_section03 {
+    margin: 10px;
+  }
+}
+.wp_minchu_car .wp_minchu_heading {
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: solid 1px #222;
+  padding: 10px;
+  background: white;
+}
+.wp_minchu_car .wp_minchu_text {
+  overflow-wrap: break-word;
+  font-size: 14px;
+  padding: 10px;
+}
+.wp_minchu_car .wp_minchu_marks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_car .wp_minchu_marks {
+    padding: 0 10px;
+  }
+}
+.wp_minchu_car .wp_minchu_marks span {
+  display: block;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 3px 6px 2px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.wp_minchu_car .wp_minchu_marks span:not(:last-of-type) {
+  margin-right: 4px;
+}
+.wp_minchu_car .wp_minchu_back {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 20px;
+  padding: 0 4px;
+}
+.wp_minchu_car .wp_minchu_back img {
+  width: 30px;
+  margin-right: 5px;
+}
+.wp_minchu_car .wp_minchu_back:hover {
+  text-decoration: underline;
+}
+
+.wp_minchu_popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.wp_minchu_popup .wp_minchu_mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.wp_minchu_popup .wp_minchu_popup_inner {
+  width: 92vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  border: solid 2px white;
+}
+.wp_minchu_popup .wp_minchu_popup_img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.wp_minchu_popup .wp_minchu_info {
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .wp_minchu_popup .wp_minchu_info {
+    font-size: 14px;
+  }
+}
+.wp_minchu_popup .wp_minchu_popup_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.wp_minchu_popup .wp_minchu_popup_close {
+  position: absolute;
+  top: -46px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: solid 2px white;
+  background: #ccc url(../img/icon_close.png) center center/23px auto no-repeat;
+}
+.wp_minchu_popup .wp_minchu_popup_close:hover {
+  background: #717171 url(../img/icon_close.png) center center/23px auto no-repeat;
+}
